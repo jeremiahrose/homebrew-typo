@@ -7,6 +7,7 @@ class Typo < Formula
 
   depends_on "fd"
   depends_on "fzf"
+  depends_on "jq"
 
   def install
     prefix.install Dir["src/*"]
