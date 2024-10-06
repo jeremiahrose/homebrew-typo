@@ -1,18 +1,14 @@
-# Jeremiahrose Typo
+# Homebrew formula for `typo`
 
-## How do I install these formulae?
+https://github.com/jeremiahrose/typo
 
-`brew install jeremiahrose/typo/<formula>`
-
-Or `brew tap jeremiahrose/typo` and then `brew install <formula>`.
-
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
-
-```ruby
-tap "jeremiahrose/typo"
-brew "<formula>"
+## Installation (MacOS)
+1. `brew tap jeremiahrose/typo`
+2. `brew install typo`
+3. Add the following to your `.zshrc` file:
+```zsh
+# Load typo (your path may be different)
+source /opt/homebrew/opt/typo/typo.sh
+# Export your OpenAI API key so typo can connect to GPT4o
+export OPENAI_API_KEY=your_key
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
