@@ -1,7 +1,7 @@
 class Typo < Formula
   desc "AI powered terminal agent"
   homepage "https://github.com/jeremiahrose/typo"
-  url "https://github.com/jeremiahrose/typo.git", tag: "0.1.0"
+  url "https://github.com/jeremiahrose/typo.git", tag: "0.2.0"
   license "MIT"
   head "https://github.com/jeremiahrose/typo.git", branch: "main"
 
@@ -20,6 +20,7 @@ class Typo < Formula
 
         source #{opt_prefix}/typo.sh
         export OPENAI_API_KEY=your_openai_key
+        export TYPO_CUSTOM_PROMPTS_DIR=optional_directory_containing_custom_prompts
 
       After adding this line, restart your terminal or run `source ~/.zshrc` (or `source ~/.bashrc`).
     EOS
