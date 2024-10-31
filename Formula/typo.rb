@@ -1,7 +1,7 @@
 class Typo < Formula
   desc "AI powered terminal agent"
   homepage "https://github.com/jeremiahrose/typo"
-  url "https://github.com/jeremiahrose/typo.git", tag: "0.4.0"
+  url "https://github.com/jeremiahrose/typo.git", tag: "0.5.0"
   license "MIT"
   head "https://github.com/jeremiahrose/typo.git", branch: "main"
 
